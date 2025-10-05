@@ -1,12 +1,24 @@
-# React + Vite
+🧮 React Calculator:
+A simple and stylish calculator built using React.js and Tailwind CSS.
+This calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division with a clean responsive design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features:
+Perform basic arithmetic operations (+, -, *, /, %)
+Clear (C) button to reset the input
+Decimal support (.)
+Real-time expression building
+Simple UI with Tailwind CSS styling
+Responsive and mobile-friendly design
 
-Currently, two official plugins are available:
+🛠️ Tech Stack:
+React.js – for building the UI and handling state
+Tailwind CSS – for modern styling
+JavaScript (ES6+) – for calculator logic
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Note:
+The calculator uses the built-in JavaScript eval() function for evaluation — use with caution.
+Consider replacing eval() with a safer expression parser (like mathjs) for production use.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👨‍💻 Author:
+Sumit
+📧 Feel free to connect or share feedback!
